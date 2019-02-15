@@ -1,0 +1,45 @@
+Create:
+user Transport
+
+db.Transporter.insert(
+{ 
+   Cl:'asd',
+   Vendor:'asd',
+   Cty:'asd',
+   Name1:'asd',
+   Name2:'asd',
+   Name3:'asd',
+   Name4:'asd',
+   City:'asd',
+   District:'asd' ,
+   POBox:'asd',
+   POBoxpcd:'asd',
+   PostalCode:'asd',
+   Rg:'asd',
+   SearchTerm:'asd',
+   Street:'asd',
+   Address:'asd',
+   Title:'asd',
+   Date:'asd',
+   Createdby:'asd',
+   ISRNumber:'asd',
+   Group:'asd',
+   Customer:'asd',
+   Telephone1:'asd',
+   Telephone2:'asd',
+   POBxcty:'asd',
+   Site:'asd'
+}
+)
+
+Read:
+db.Transporter.find()
+
+show collections
+
+Update:
+db.Transporter.update({'Cl':'asd'}, {$set:{'Cl':'newAsd'}})
+
+Delete:
+db.Transporter.remove( { "Cl" : "asd" })
+
